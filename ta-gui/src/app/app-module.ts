@@ -15,7 +15,7 @@ import { App } from './app';
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
-    provideClientHydration(withEventReplay())
+    // provideClientHydration(withEventReplay())
   ],
   bootstrap: [App]
 })
